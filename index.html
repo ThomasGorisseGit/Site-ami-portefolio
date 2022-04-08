@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathan Girod</title>
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <script src="./script.js"></script>
+  <style>
+    .mySlides {
+      display: none
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img id="profile" src="./images/GIRODwhite.png" alt="Name">
+    <h2 id="presentation"> <b> <em class="color">Gameplay</em></b> developer</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">CV</a></li>
+        <li><a href="#">Github</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+    <div class="separation">
+      __________________________________________________________________________________________________________</div>
+    <h3>Cliquez sur l'un des jeux afin d'accéder à sa présentation !</h3>
+    <div class="all">
+      <div class="content" style="max-width:1200px; display: flex;">
+        <a href="./lunarfighter.html"><img class="mySlides" id="slide1" src="./images/image1.png" style="width:100%"></a>
+        <a href="./apocalypse.html"> <img class="mySlides" src="./images/aaa.png" style="width:100%"></a>
+        <a href="./experimental.html"><img class="mySlides" src="./images/imageprototype.png" style="width:100%"></a>
+      </div>
+      <div class="center">
+        <div class="section">
+          <button class="button light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+          <button class="button light-grey" onclick="plusDivs(1)">Next ❯</button>
+        </div>
+        <button class="button demo" onclick="currentDiv(1)">1</button>
+        <button class="button demo" onclick="currentDiv(2)">2</button>
+        <button class="button demo" onclick="currentDiv(3)">3</button>
+      </div>
+    </div>
+
+    <footer></footer>
+</body>
+
+</html>
